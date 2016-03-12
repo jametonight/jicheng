@@ -25,11 +25,21 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsg-kG-gsf">
+                                <rect key="frame" x="286" y="153" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5I1-eK-qrr"/>
+                                    <constraint firstAttribute="width" constant="46" id="NQ2-Bd-ZwW"/>
+                                </constraints>
+                                <state key="normal" title="爱好"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="JKd-yg-ogk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="10x-2W-nub"/>
+                            <constraint firstItem="jsg-kG-gsf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="286" id="Uyo-aL-Ae6"/>
                             <constraint firstItem="JKd-yg-ogk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mnJ-tD-2Me"/>
+                            <constraint firstItem="jsg-kG-gsf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="133" id="zsx-HZ-Epy"/>
                         </constraints>
                     </view>
                 </viewController>
